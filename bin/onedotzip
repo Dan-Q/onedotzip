@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'onedotzip'
+Story.new(ARGV[0]).build(ARGV[1])
